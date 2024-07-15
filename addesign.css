@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo {
+    display: block;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    width:50px;
+    height:25px;
+}
+
+.nav-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: -35px;
+}
+
+header {
+    color: #d93025;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.class-1 {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.class-1 .heading-1 {
+    font-size: 18px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #333;
+}
+
+.class-1 .heading-2 {
+    font-size: 15px;
+    width: 100%;
+    font-weight: 500;
+    color: #555;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.class-1 .text-1 {
+    width: 100px;
+    font-size: 13px;
+    margin: 2px;
+}
+
+.class-1 .space {
+    min-width: 167px;
+    width: 50%;
+    margin: 2px;
+}
+
+.class-1 .space input {
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+    margin: 2px;
+}
+
+.class-1 .text-2 {
+    width: 32%;
+    min-width: 16px;
+    color: #555;
+    font-size: 11px;
+    white-space: pre;
+    padding-left: 0px;
+}
+
+span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.class-1 .button {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button input {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    color: #fff;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
